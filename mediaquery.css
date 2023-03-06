@@ -1,0 +1,79 @@
+@media screen and (max-width: 621px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .movie {
+    flex-direction: column;
+  }
+  img {
+    width: 180px;
+    height: 230px;
+  }
+
+  .genres,
+  .movie-title,
+  .movie-stats {
+    position: relative;
+    right: 25px;
+  }
+  .popularity {
+    position: relative;
+    right: 15px;
+  }
+  .movie-info {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .message {
+    font-size: 22px;
+  }
+  .movie-title {
+    font-size: 21px;
+    right: 20px;
+  }
+  .container {
+    padding-top: 15px;
+  }
+  .poster {
+    position: relative;
+    bottom: 5px;
+    width: 160px;
+    height: 210px;
+  }
+  .movie-info {
+    margin-top: 0px;
+  }
+  .popularity,
+  .movie-stats {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .poster {
+    position: relative;
+    bottom: 5px;
+    width: 140px;
+    height: 190px;
+  }
+  .movie-info {
+    margin-top: 0px;
+  }
+  .popularity,
+  .movie-stats {
+    margin-top: 5px;
+  }
+  .last-section {
+    height: 120px;
+  }
+  .message {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
